@@ -22,12 +22,11 @@ html {
 body {
   margin: 0;
   font-family: HelloHiFont, sans-serif;
- color: #111;
- background-image: url("/img/watch.png");
- background-size: 25%;
- background-repeat: no-repeat;
- background-position-x: 1200px;
- background-position-y: 300px;
+  color: #111;
+  background-image: url("../img/watch.png");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: right center;
 
 }
 
@@ -38,15 +37,18 @@ body {
   padding: 15px 0;
   text-align: center;
 }
+
 .navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .navbar ul li {
   display: inline-block;
   margin: 0 20px;
 }
+
 .navbar ul li a {
   color: white;
   text-decoration: none;
@@ -79,6 +81,7 @@ body {
   border: 8px solid #7b5ce0;
   text-align: center;
 }
+
 .deal-badge span {
   transform: rotate(-20deg);
 }
@@ -86,10 +89,12 @@ body {
 .hero-content {
   text-align: center;
 }
+
 .watch-img {
   width: 10vw;
-align-content: center;
+  align-content: center;
 }
+
 .hero h1 {
   font-size: 62px;
 }
@@ -102,23 +107,28 @@ align-content: center;
   background: #f5f5f5;
   background-color: #fff;
   margin-top: 170px;
-  border-radius: 0 0 160px 0 ;
+  border-radius: 0 0 160px 0;
 
 }
+
 .product-info h2 {
   font-size: 36px;
 }
+
 .product-info p {
   line-height: 1.6;
 }
+
 .product-info ul {
   margin: 20px 0;
   padding: 0;
   list-style: none;
 }
+
 .product-info ul li {
   margin: 5px 0;
 }
+
 .cta-btn {
   display: inline-block;
   background: black;
@@ -127,8 +137,6 @@ align-content: center;
   border-radius: 10px;
 }
 
-a{
+a {
   text-decoration: none;
 }
-
-

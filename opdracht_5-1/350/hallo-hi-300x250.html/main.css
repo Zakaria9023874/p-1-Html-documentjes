@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 250px; 
+background-color: black;
+}
+
+.box {
+ display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 20px;
+    height: 5px;
+}
+
+
+.box1 {
+    background-color: #9000ff;
+}
+
+.box2 {
+background-color: #55559f;
+}
+
+.box3 {
+    background-color: #b0b0eb;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+.titleText{
+    color: white;
+    font-size: 32px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 73px;
+    left: 15px;
+}
+
+.hiImg{
+    width: 24px;
+    height: auto;
+}
+
+.subText{
+    color: white;
+    font-size: 20px;
+}
+
+.productText{
+    color: white;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+
+.uspText{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    position: absolute;
+    top: 150px;
+    left: 15px;
+
+    color: white;
+    font-size: 10px;
+    list-style-type: none;
+}
+
+.circle{
+    position: absolute;
+    right: -70px;
+    bottom: -160px;
+    width: 270px;
+    height: 270px;
+    background-color: #7272dd;
+    border-radius: 50%;
+}
+
+.simTag{
+    position: absolute;
+    right: 26px;
+    top: 20px;
+    width: 68px;
+    height: auto;
+}
+
+.btn{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+    width: 150px;
+    height: 30px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.btnText{
+    color: white;
+    font-size: 12px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
