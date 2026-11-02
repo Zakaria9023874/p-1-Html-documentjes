@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #e94545;
+    padding: 20px 40px;
+    color: white;
+}
+
+.geel {
+    background-color: #ffd21f;
+    height: 200px;
+    padding: 20px 40px;
+}
+
+.oranje {
+    background-color: #f79428;
+    height: 200px;
+    padding: 20px 40px;
+}
+
+.groen {
+    background-color: #69ad4d;
+    height: 200px;
+    padding: 20px 40px;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        background-color: #ff6380;
+    }
+
+    .geel {
+        background-color: #ff4055;
+    }
+
+    .oranje {
+        background-color: #5050ed;
+    }
+
+    .groen {
+        background-color: #3434ff;
+    }
+
+    .geel, .oranje, .groen {
+        height: 300px;
+        color: white;
+    }
+}
